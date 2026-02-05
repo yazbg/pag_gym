@@ -56,5 +56,12 @@
             </li>
         </ul>
     </div>
+    <div> 
+        <h2>Machines from Context</h2>
+            {% for machine in machines %}
+                <p>{{ machine.title }}</p>
+            {% endfor %} 
+    </div>
+    
 </body>
 </html>
